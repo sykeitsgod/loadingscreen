@@ -14,15 +14,15 @@ var l_serverImage = "logo.png";
 
 // Center logo?
 // 'true' or 'false'
-var l_centerLogo = false;
+var l_centerLogo = true;
 
 // Display current map and gamemode?
 // 'true' or 'false'
-var l_displayMapGamemode = true;
+var l_displayMapGamemode = false;
 
 // Custom server name configuration
 // Leave it blank for automatic server name
-var l_serverName = "sleekLoad 2";
+var l_serverName = "";
 
 // Use a video for the background?
 // Otherwise it will use images
@@ -72,15 +72,14 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"touhou01.jpg",
-	"touhou02.jpg",
-	"touhou03.jpg"
+	"2.jpg",
+	"1.jpg"
 ];
 
 // (Image-background only)
 // Random background images order?
 // 'true' or 'false'
-var l_bgImagesRandom = true;
+var l_bgImagesRandom = false;
 
 // (Image-background only)
 // Delay between background images changes
@@ -98,15 +97,15 @@ var l_bgOverlay = true;
 
 // Background darkening amount
 // 0 for none (0%), 100 for pitch black (100%)
-var l_bgDarkening = 50;
+var l_bgDarkening = 35;
 
 // Play music during the loading screen?
 // 'true' or 'false'
-var l_music = true;
+var l_music = false;
 
 // Display current music name?
 // 'true' or 'false'
-var l_musicDisplay = true;
+var l_musicDisplay = false;
 
 // Music playlist
 // Add as many youtube ids/urls or ogg files you want
@@ -125,7 +124,7 @@ var l_musicRandom = true;
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
-var l_musicVolume = 15;
+var l_musicVolume = 0;
 
 // Enable custom messages?
 // 'true' or 'false'
@@ -133,14 +132,14 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"Enjoy the server",
-	"Thanks for joining us!",
-	"Did you know these backgrounds and music are from Touhou?",
+	"Welcome to XerusRP!",
+	"Join as friends, leave as family.",
+	"We hope you enjoy your stay with us!",
 ];
 
 // Random message order?
 // 'true' or 'false'
-var l_messagesRandom = true;
+var l_messagesRandom = false;
 
 // Delay between message changes
 // in milliseconds
