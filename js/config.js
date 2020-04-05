@@ -10,11 +10,11 @@
 // Leave it blank to use text instead
 // (Put the files in the images folder)
 // (You can also use external URL)
-var l_serverImage = "logo.png";
+var l_serverImage = "";
 
 // Center logo?
 // 'true' or 'false'
-var l_centerLogo = true;
+var l_centerLogo = false;
 
 // Display current map and gamemode?
 // 'true' or 'false'
@@ -22,7 +22,7 @@ var l_displayMapGamemode = false;
 
 // Custom server name configuration
 // Leave it blank for automatic server name
-var l_serverName = "";
+var l_serverName = " ";
 
 // Use a video for the background?
 // Otherwise it will use images
@@ -72,8 +72,7 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"2.jpg",
-	"1.jpg"
+	"loadingscreenbg.png"
 ];
 
 // (Image-background only)
@@ -97,7 +96,7 @@ var l_bgOverlay = true;
 
 // Background darkening amount
 // 0 for none (0%), 100 for pitch black (100%)
-var l_bgDarkening = 35;
+var l_bgDarkening = 15;
 
 // Play music during the loading screen?
 // 'true' or 'false'
